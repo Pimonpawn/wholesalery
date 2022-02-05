@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+.RegisterForm{
+    padding: 0px;
+    margin: 51px 18% 118px 18%;
+        h2 {
+            font-weight: 400;
+            font-size: 33.31px;
+            font-family: 'DM Serif Text', serif;
+            text-align: center;
+            font-style: normal;
+        }
+        p {
+            color: #666666;
+            text-align: center;
+            margin-bottom: 50px;
+    }
+    .TermsAndPrivacy{
+        color: #696868;
+        a {
+            color: #696868;
+            text-decoration: underline;
+        }
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #979797;
+        border-color: #979797;
+      }
+    .SubmitForm {
+        background-color: #535252;
+        width: 45%;
+        height: 36px;
+        margin-bottom: 110px;
+      }
+}

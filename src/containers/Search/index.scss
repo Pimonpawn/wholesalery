@@ -1,0 +1,67 @@
+.Search {
+    .Ads {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 569px;
+        background-color: #E5E5E5;
+    }
+    .Body {
+        display: flex;
+        flex-direction: row;
+        padding: 83px 0.45% 59px 6.45%;
+        .Category {
+            padding-right: 0%;
+            width: 360px;
+            .HeadClear{
+                margin-bottom: 10px;
+            }
+            .Head {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                .HeadFont{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+            .SubMenu {
+                display: flex;
+                flex-direction: column;
+                margin: 0 0 10px 13px;
+                line-height: 30px;
+                .ant-checkbox-wrapper{
+                    margin-left: 0px;
+                }
+                .ant-checkbox-checked .ant-checkbox-inner {
+                    background-color: #979797;
+                    border-color: #979797;
+                  }
+            }
+            .RadioHead {
+                margin: 0 0 10px 13px;
+                line-height: 30px;
+                .ant-radio-checked .ant-radio-inner{
+                    border-color: #979797 !important ;
+                  }
+                  .ant-radio-checked .ant-radio-inner:after{
+                    background-color: #979797;
+                  }
+                  .ant-radio:hover .ant-radio-inner {
+                    border-color: #979797 ;
+                  }
+            }
+        }
+    }
+    .Product{
+        margin: 0 0 0 40px;
+        .ProductDetail{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0 0 0 40px;
+        }
+    }
+}

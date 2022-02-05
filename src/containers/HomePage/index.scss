@@ -1,0 +1,38 @@
+.HomePage{
+  .site-card-border-less-wrapper {
+    display: flex;
+    padding: 0px;
+    background: #EAEEF3;
+    justify-content: space-between;
+    li:not(.slick-active){
+      width: 4px;
+    }
+    .contentLeft{
+      width: 1440px;
+      .contentStyleLeft{
+        height: 542px;
+        line-height: 160px;
+        text-align: center;
+        background-color: rgb(28, 28, 102);
+        border-radius: 0px;
+      }
+    }
+    .contentRight{
+      width: 458px;
+      .contentStyleRight{
+        border-radius: 20px;
+        height: 447px;
+        color: #fff;
+        line-height: 160px;
+        text-align: center;
+        background: #364d79;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .contentRight{
+    display: none;
+  }
+}

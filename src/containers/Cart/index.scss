@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&family=Poppins&display=swap');
+
+.Cart{
+    font-family: 'Poppins', sans-serif;
+    padding: 44px 9.2% 0 9.2%;
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .Body{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .SubHead{
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .Store{
+            .CartCard{
+                margin-bottom: 48px;
+                h2{
+                    font-size: 20px;
+                    color: #58595B;
+                }
+                .ant-pagination.ant-table-pagination.ant-table-pagination-right{
+                    display: none;
+                }
+                Table{
+                    width: 83%;
+                    border-bottom:0.5px solid #979797;
+                    font-size: 16px;
+                    .ant-table-thead .ant-table-cell{
+                        background-color: white;
+                        border-bottom: 0.5px solid #979797;
+                    }
+                    .ant-table-cell{
+                        background-color: white;
+                        border: none;
+                    }
+                    .ant-table-cell::before{
+                        display: none;
+                    }
+                    .DeleteOut {
+                        color: black;
+                    }
+                    .ant-table-thead .ant-table-cell.ant-table-selection-column{
+                        visibility: hidden;
+                    }
+                    .productName{
+                        display: flex;
+                    }
+                    img{
+                        background-color: #E5E5E5; 
+                        height: 77px; 
+                        width: 73px;
+                        min-width: none;
+                        margin-right: 10px;
+                    }
+                    .head{
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .Summary{
+            padding: 31px 42px;
+            width: 286px;
+            height: fit-content;
+            border: 0.5px solid #979797;
+            .NameSummary{
+                display: flex;
+                justify-content: space-between;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            .Order {
+                background-color: #535252;
+                color: white;
+                width: 195px;
+            }
+        }
+    }
+}

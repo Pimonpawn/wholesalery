@@ -1,0 +1,23 @@
+.Categories {
+    padding: 56px 10.41%;
+    .Header {
+        margin-bottom: 29px;
+        h2 {
+            letter-spacing: 00.14px;
+            font-size: 28px;
+            font-weight: 500;
+            .LinkAllCategories {
+                font-size: 16px;
+                color: #1DA599;
+                b {
+                    font-size: 12px;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .Cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,114 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D7D7D7;
+  height: 100vh;
+
+  .LoginBody{
+    padding: 89.93px 69.95px 40px 69.95px;
+    height: 709px;
+    width: 546.25px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+    h1{
+      height: 44.97px;
+      margin: 0 0 11px 0;
+      font-weight: bold;
+      font-size: 33.308px;
+      line-height: 45px;
+    }
+
+    p {
+      height: 18.32px;
+      color: #686794;
+      margin: 0 0 59.95px 0;
+      font-weight: 400;
+      font-size: 13.3232px;
+      line-height: 18px;
+    }
+
+    .RememberAndForgot {
+      width: 85%;
+    }
+
+    .AdditionLogin {
+      width: 406.36px;
+
+      Button {
+        width: 192px;
+        height: 50px;
+        font-weight: 600;
+        border: 0.833602px solid #B3B3C9;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        img {
+          width: 15.35px;
+          height: 15.35px;
+          border-radius: 4px;
+          margin: 0 7.97px 0 0;
+        }
+      }
+    }
+
+    .login-form-forgot {
+      font-weight: 700;
+    }
+
+    .SignUp {
+      padding: 0;
+      font-weight: 700;
+    }
+
+    .MessageSignUp{
+      display: flex;
+      align-items: center;
+    }
+
+    .login-form-remember {
+      color: #8180A5;
+    }
+    
+    .login-form-forgot {
+      color: #8180A5;
+    }
+
+    .login-form-button{
+      width: 406.36px;
+      height: 65.78px;
+      background: #2C5BBA;
+      border-radius: 4px;
+      font-size: medium;
+    }
+
+    span.ant-input-affix-wrapper {
+      width: 406.36px;
+      height: 65.78px;
+      padding: 0 32.48px;
+
+      border: 0.8327px solid #B3B3C9;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+
+    .ant-form-item-control-input-content {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ant-form-item-explain.ant-form-item-explain-error{
+      padding: 0 32.48px;
+    }
+
+    .ant-form ant-form-horizontal login-form{
+      border: solid 0.5px;
+      border-radius: 10px;
+    }
+
+    .site-form-item-icon{
+      margin: 24.15px 24.15px 25.81px 0;
+    }
+  }
+}

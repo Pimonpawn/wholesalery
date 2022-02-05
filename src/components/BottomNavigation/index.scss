@@ -1,0 +1,85 @@
+.FooterNavigation{
+  padding: 0 25.5px;
+  .SubBottomNavigation{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    // grid-template-columns: 5.4% 22.29% 22.29% 22.29% 22.29% 5.4%;
+    width: 100%;
+    height: 130px;
+    border-top: 2px solid #EAEEF3;
+    border-bottom: 2px solid #EAEEF3;
+    padding: 39px 10%;
+    .Details{
+      display: flex;
+      align-items: center;
+      height: 48px;
+      img{
+        width: 33.6px;
+        height: 27.2px;
+      }
+      .Text{
+        margin-left: 23px;
+        h2{
+          margin: 0;
+          size: 16px;
+        }
+        p{
+          color: #5A7184;
+          margin: 0;
+          size: 14px;
+        }
+      }
+    }
+  }
+  .BottomNavigation {
+    display: grid;
+    grid-template-columns: 33.28% 13.3% 13.3% 13.3% 23.28%;
+    width: 100%;
+    height: 586px;
+    .Contact{
+      display: flexbox;
+      justify-content: center;
+      padding: 89px 0 0 29.71%;
+      h2{
+        font-size: 24px;
+        letter-spacing: 0.08px;
+        font-weight: 600;
+      }
+      p{
+        margin-top: 8px;
+        font-size: 14px;
+      }
+      .ListIcon {
+        margin-top: 63px;
+        .Icon {
+          margin: 2px 13px 2px 13px;
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    .BodyBottomNavigation{
+      margin-top: 95px;
+      .ListMenu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        p{
+          margin-bottom: 20px;
+        }
+        Input{
+          height: 48px;
+          width: 62.1%;
+          background-color: #F7F8F9;
+        }
+        Button{
+          margin-top: 12px;
+          height: 48px;
+          width: 62.1%;
+          color: white;
+          background-color: var(--main-button);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;600&display=swap');
+
+.CardCategory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    height: 129px;
+    min-width: none;
+    border: 1px solid #DFE3E9;
+    border-radius: 8px;
+    padding: 25px 20px;
+    margin: 15px;
+    .Left{
+        .Category {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .Product {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        .Shop {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+        }
+    }
+    .Right{
+        img{
+            background-color: #E5E5E5; 
+            height: 99px; 
+            width: 105px;
+            min-width: none;
+        }
+    }
+}

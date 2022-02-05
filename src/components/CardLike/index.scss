@@ -1,0 +1,58 @@
+.CardLike {
+    display: flex;
+    width: 434px;
+    height: auto;
+    border: 1px solid #E5E5E5;
+    margin: 12px;
+    img {
+        // border: 0;
+        width: 212px;
+        height: 212px;
+        background-color: #E5E5E5;
+    }
+    .Detail{
+        display: flex;
+        justify-content: space-between;
+        .ProductDetail{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0 0 23px;
+            p{
+                margin: 5px 0 0 0;
+                font-size: 11px;
+            }
+            .ProductName {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .Price {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+            }
+            .Rate {
+                color: #535252;
+            }
+            Button {
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 10px;
+                width: 133px;
+                margin: 7px 0;
+                background: #535252;
+                border-radius: 2px;
+            }
+        }
+        .Like {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 7px 14px;
+            width: 40px;
+            height: 26px;
+            background: #FFFFFF;
+            border: 1px solid #E5E5E5;
+        }
+    }
+}
